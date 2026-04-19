@@ -5,13 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>君の名は。 | Oshimeguri Map</title>
   <link rel="stylesheet" href="../../style.css">
-  <script src="/oshimeguri-map/assets/js/analytics.js"></script>
 </head>
 <body>
   <main>
     <h1>君の名は。 聖地マップ</h1>
-    <p>今後追加予定の作品ページです。</p>
-    <p><a href="../../">← 作品一覧へ戻る</a></p>
+    <p>東京・四谷周辺を中心に巡れる作品ページです。</p>
+    <p><a href="/oshimeguri-map/">← 作品一覧へ戻る</a></p>
+
+    <section>
+      <h2>作品概要</h2>
+      <p>まずは東京側の代表的な聖地を中心にまとめています。四谷〜信濃町〜新宿で回りやすい構成です。</p>
+      <p><strong>巡礼エリア:</strong> 四谷・信濃町・新宿</p>
+      <p><strong>所要時間目安:</strong> 2〜4時間</p>
+      <p><strong>おすすめルート:</strong> 四ツ谷駅 → 須賀神社の階段 → 信濃町駅前歩道橋 → 新宿警察署裏交差点</p>
+    </section>
+
+    <section>
+      <h2>スポット一覧</h2>
+      <div id="spot-list">読み込み中...</div>
+    </section>
+
+    <section>
+      <h2>注意</h2>
+      <p>本ページは非公式のファンメイド情報です。現地訪問時は私有地・交通・近隣住民への配慮を優先してください。</p>
+    </section>
   </main>
+
+  <script>
+    fetch("/oshimeguri-map/data/your-name.json")
+      .then(response => response.json())
+      .then(spots => {
+        const container = document.getElementById("spot-list");
+        container.innerHTML = "";
+
+        spots.forEach(spot => {
+          const article = document.createElement("article");
+          article.className = "spot";
+          article.innerHTML = `
+            <h3>${spot.spotName ?? "名称未設定"}</h3>
+            <p><strong>作品:</strong> ${spot.work ?? "不明"}</p>
+            <p><strong>エリア:</strong> ${spot.area ?? "不明"}</p>
+            <p>${spot.description ?? "説明なし"}</p>
+            <p><strong>現在:</strong> ${spot.statusNow ?? "情報なし"}</p>
+            <p><strong>改装レベル:</strong> ${spot.changeLevel ?? "不明"}</p>
+            <p><strong>巡礼ポイント:</strong> ${spot.visitTip ?? "情報なし"}</p>
+            <iframe
+              src="${spot.embedUrl ?? ''}"
+              width="100%"
+              height="220"
+              style="border:0; border-radius:8px; margin:12px 0;"
+              loading="lazy">
+            </iframe>
+            <p><a href="${spot.mapUrl ?? '#'}" target="_blank" rel="noopener noreferrer">Google Mapsで開く</a></p>
+            <p><a href="${spot.source ?? '#'}" target="_blank" rel="noopener noreferrer">出典を見る</a></p>
+          `;
+          container.appendChild(article);
+        });
+      })
+      .catch(error => {
+        console.error("JSONの読み込みに失敗しました:", error);
+        document.getElementById("spot-list").innerHTML =
+          "<p>スポットデータの読み込みに失敗しました。</p>";
+      });
+  </script>
 </body>
 </html>
