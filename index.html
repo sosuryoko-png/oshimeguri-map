@@ -7,8 +7,51 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Oshimeguri Map</h1>
-  <p>推しの物語を、現実の地図でたどる。</p>
-  <p>最初のテストページです。</p>
+  <header>
+    <h1>Oshimeguri Map</h1>
+    <p>推しの物語を、現実の地図でたどる。</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>地図</h2>
+      <iframe
+        src="https://www.google.com/maps?q=二子玉川駅&output=embed"
+        width="100%"
+        height="320"
+        style="border:0;"
+        loading="lazy">
+      </iframe>
+    </section>
+
+    <section>
+      <h2>スポット一覧</h2>
+      <div id="spot-list"></div>
+    </section>
+  </main>
+
+  <script>
+    fetch("./spots.json")
+      .then(response => response.json())
+      .then(spots => {
+        const container = document.getElementById("spot-list");
+
+        spots.forEach(spot => {
+          const article = document.createElement("article");
+          article.className = "spot";
+
+          article.innerHTML = `
+            <h3>${spot.name}</h3>
+            <p>${spot.description}</p>
+            <p><a href="${spot.mapUrl}" target="_blank" rel="noopener noreferrer">Google Mapsで見る</a></p>
+          `;
+
+          container.appendChild(article);
+        });
+      })
+      .catch(error => {
+        console.error("JSONの読み込みに失敗しました:", error);
+      });
+  </script>
 </body>
 </html>
