@@ -1,0 +1,50 @@
+[
+  {
+    "spotName": "須賀神社の階段",
+    "work": "君の名は。",
+    "area": "東京・四谷",
+    "description": "ラストシーンとキービジュアルで特に有名な階段。『君の名は。』の聖地として最も知られている場所のひとつ。",
+    "statusNow": "現存。住宅地に近いため訪問時の配慮が必要。",
+    "changeLevel": "現存",
+    "visitTip": "早朝か人通りの少ない時間帯のほうが見やすい。長時間の滞在や再現撮影のしすぎには注意。",
+    "mapUrl": "https://maps.google.com/?q=須賀神社 四谷",
+    "embedUrl": "https://www.google.com/maps?q=須賀神社 四谷&output=embed",
+    "source": "https://www.japan.travel/en/de/japan-reise-blog/5-tipps-fuer-anime-fans-auf-tokyo-reise/"
+  },
+  {
+    "spotName": "四ツ谷駅周辺",
+    "work": "君の名は。",
+    "area": "東京・四谷",
+    "description": "JNTOでも、須賀神社とあわせて四ツ谷駅周辺が『君の名は。』の背景として紹介されているエリア。",
+    "statusNow": "現存。",
+    "changeLevel": "現存",
+    "visitTip": "須賀神社の階段とまとめて回りやすい。まず駅周辺を見てから神社へ向かうと動線がきれい。",
+    "mapUrl": "https://maps.google.com/?q=四ツ谷駅",
+    "embedUrl": "https://www.google.com/maps?q=四ツ谷駅&output=embed",
+    "source": "https://www.japan.travel/en/de/japan-reise-blog/5-tipps-fuer-anime-fans-auf-tokyo-reise/"
+  },
+  {
+    "spotName": "信濃町駅前歩道橋",
+    "work": "君の名は。",
+    "area": "東京・信濃町",
+    "description": "MATCHAの新宿編で、作中に複数回登場する場所として紹介されている歩道橋。",
+    "statusNow": "現存。",
+    "changeLevel": "現存",
+    "visitTip": "四谷から徒歩圏ではあるが少し歩く。最初の拡張スポットとして追加しやすい。",
+    "mapUrl": "https://maps.google.com/?q=信濃町駅",
+    "embedUrl": "https://www.google.com/maps?q=信濃町駅&output=embed",
+    "source": "https://matcha-jp.com/jp/3773"
+  },
+  {
+    "spotName": "新宿警察署裏交差点",
+    "work": "君の名は。",
+    "area": "東京・新宿",
+    "description": "MATCHA記事で、印象的な新宿の街頭シーンのモデルとして紹介されている交差点。",
+    "statusNow": "現存。",
+    "changeLevel": "現存",
+    "visitTip": "交通量が多いので撮影時は歩行者や信号を優先。夜景目当てなら安全に注意。",
+    "mapUrl": "https://maps.google.com/?q=新宿警察署",
+    "embedUrl": "https://www.google.com/maps?q=新宿警察署&output=embed",
+    "source": "https://matcha-jp.com/jp/3773"
+  }
+]
