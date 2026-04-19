@@ -1,0 +1,18 @@
+[
+  {
+    "id": "penguindrum",
+    "title": "輪るピングドラム",
+    "category": "anime",
+    "area": "荻窪",
+    "description": "荻窪周辺を中心に巡れる聖地マップ",
+    "page": "./works/penguindrum/"
+  },
+  {
+    "id": "your-name",
+    "title": "君の名は。",
+    "category": "movie",
+    "area": "東京",
+    "description": "今後追加予定",
+    "page": "./works/your-name/"
+  }
+]
