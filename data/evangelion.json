@@ -1,0 +1,50 @@
+[
+  {
+    "spotName": "箱根（第3新東京市モデル）",
+    "work": "新世紀エヴァンゲリオン",
+    "area": "神奈川県・箱根",
+    "description": "作中の第3新東京市のモデルとされるエリア。作品全体の舞台。",
+    "statusNow": "現存。観光地として整備されている。",
+    "changeLevel": "現存",
+    "visitTip": "箱根湯本から芦ノ湖周辺まで広く回ると雰囲気を感じられる。",
+    "mapUrl": "https://maps.google.com/?q=箱根",
+    "embedUrl": "https://www.google.com/maps?q=箱根&output=embed",
+    "source": "https://www.hakone.or.jp/evangelion/"
+  },
+  {
+    "spotName": "芦ノ湖",
+    "work": "新世紀エヴァンゲリオン",
+    "area": "神奈川県・箱根",
+    "description": "戦闘シーンなどに登場する湖のモデルとされる場所。",
+    "statusNow": "現存。",
+    "changeLevel": "現存",
+    "visitTip": "海賊船やロープウェイと組み合わせると巡礼しやすい。",
+    "mapUrl": "https://maps.google.com/?q=芦ノ湖",
+    "embedUrl": "https://www.google.com/maps?q=芦ノ湖&output=embed",
+    "source": "https://www.hakone.or.jp/evangelion/"
+  },
+  {
+    "spotName": "大涌谷",
+    "work": "新世紀エヴァンゲリオン",
+    "area": "神奈川県・箱根",
+    "description": "作中の荒廃した風景のモデルとして挙げられることが多い火山地帯。",
+    "statusNow": "現存。",
+    "changeLevel": "現存",
+    "visitTip": "天候によっては立ち入り制限があるので事前確認が必要。",
+    "mapUrl": "https://maps.google.com/?q=大涌谷",
+    "embedUrl": "https://www.google.com/maps?q=大涌谷&output=embed",
+    "source": "https://www.hakone.or.jp/evangelion/"
+  },
+  {
+    "spotName": "箱根湯本駅",
+    "work": "新世紀エヴァンゲリオン",
+    "area": "神奈川県・箱根",
+    "description": "巡礼の起点として利用される主要駅。",
+    "statusNow": "現存。",
+    "changeLevel": "現存",
+    "visitTip": "ここを起点に箱根全体を回るのが最も効率的。",
+    "mapUrl": "https://maps.google.com/?q=箱根湯本駅",
+    "embedUrl": "https://www.google.com/maps?q=箱根湯本駅&output=embed",
+    "source": "https://www.hakone.or.jp/evangelion/"
+  }
+]
