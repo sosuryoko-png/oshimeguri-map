@@ -12,7 +12,15 @@
     "title": "君の名は。",
     "category": "movie",
     "area": "東京",
-    "description": "今後追加予定",
+    "description": "新宿などの東京都内を巡る聖地マップ",
     "page": "./works/your-name/"
-  }
+  },
+  {
+  "id": "evangelion",
+  "title": "エヴァンゲリオン",
+  "category": "anime",
+  "area": "箱根",
+  "description": "箱根を巡る聖地マップ",
+  "page": "/oshimeguri-map/works/evangelion/"
+}
 ]
