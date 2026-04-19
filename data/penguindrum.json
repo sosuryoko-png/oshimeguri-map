@@ -1,0 +1,32 @@
+[
+  {
+    "spotName": "タウンセブン前",
+    "description": "ピングセブンのモデルとされる商業施設前。",
+    "statusNow": "概ね現存、一部改装あり。",
+    "changeLevel": "軽微変更",
+    "visitTip": "荻窪駅から近く、最初のスポットに向いています。",
+    "mapUrl": "https://maps.google.com/?q=タウンセブン 荻窪",
+    "embedUrl": "https://www.google.com/maps?q=タウンセブン 荻窪&output=embed",
+    "source": "https://studio-pablog.com/5979/"
+  },
+  {
+    "spotName": "タウンセブン屋上",
+    "description": "作中で印象的な屋上スポット。",
+    "statusNow": "現在は遊具が撤去され、広場として改装されている。",
+    "changeLevel": "大幅変更",
+    "visitTip": "作中との差分を見るのが面白いスポットです。",
+    "mapUrl": "https://maps.google.com/?q=タウンセブン 荻窪",
+    "embedUrl": "https://www.google.com/maps?q=タウンセブン 荻窪&output=embed",
+    "source": "https://studio-pablog.com/5979/"
+  },
+  {
+    "spotName": "杉並区立中央図書館",
+    "description": "作中に登場する公共施設のモデル。",
+    "statusNow": "外観はほぼそのままだが、館内は改装されている。",
+    "changeLevel": "軽微変更",
+    "visitTip": "静かな場所なので訪問時はマナー重視。",
+    "mapUrl": "https://maps.google.com/?q=杉並区立中央図書館",
+    "embedUrl": "https://www.google.com/maps?q=杉並区立中央図書館&output=embed",
+    "source": "https://studio-pablog.com/5979/"
+  }
+]
